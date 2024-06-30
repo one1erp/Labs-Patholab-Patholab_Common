@@ -3,7 +3,7 @@ using System.Drawing;
 using System.Linq;
 using LSSERVICEPROVIDERLib;
 using Microsoft.Win32;
-using Oracle.ManagedDataAccess.Client;
+using Oracle.DataAccess.Client;
 
 namespace Patholab_Common
 {
@@ -110,7 +110,7 @@ namespace Patholab_Common
             try
             {
 
-                const string resourcePath = @"HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Thermo\Nautilus\9.4\Directory";
+                const string resourcePath = @"HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Thermo\Nautilus\9.5\Directory";
 
                 var path = (string)Registry.GetValue(resourcePath, "Resource", null);
 
