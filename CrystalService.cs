@@ -6,7 +6,8 @@ using System.IO;
 using System.Windows.Forms;
 using CrystalDecisions.CrystalReports.Engine;
 using CrystalDecisions.Shared;
-using Oracle.DataAccess.Client;
+//using Oracle.DataAccess.Client;
+using Oracle.ManagedDataAccess.Client;
 using word = Microsoft.Office.Interop.Word;
 
 
